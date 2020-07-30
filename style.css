@@ -1,0 +1,20 @@
+.coluna{
+    color: black;
+    display: flex;
+}
+.rifa{
+    background-color: blue;
+    color: white;
+    width: 20%;
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+}
+header{
+    text-align: center;
+}
+@media (max-width: 575.98px) {
+    .rifa{
+        width: 20vw;
+    }
+    }
